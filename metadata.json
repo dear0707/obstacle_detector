@@ -1,0 +1,6 @@
+{
+  "name": "Obstacle Detector",
+  "description": "Real-time obstacle detection and hazard warning system for visually impaired users using on-device computer vision.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
