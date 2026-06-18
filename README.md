@@ -1,7 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 1. Initialize local Git repository
+git init
 
+# 2. Stage and commit files
+git add .
+git commit -m "feat: real-time obstacle detection with sensory calibration overlays"
+
+# 3. Create 'main' branch and link your GitHub remote
+git branch -M main
+git remote add origin https://github.com/<your-username>/<your-repo-name>.git
+
+# 4. Push to origin
+git push -u origin main
 # Run and deploy your AI Studio app
 
 This contains everything you need to run your app locally.
